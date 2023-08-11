@@ -26,6 +26,22 @@
 
 .right{
  width: 70vw;
+ background-color: #fafafa;
+}
+
+.header-right{
+ font-family: Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 1.2rem;
+ display: flex;
+ flex-wrap: wrap;
+ width: 590px;
+}
+
+.header-right-below{ /* use margin to space all the right elements out */
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 img{
@@ -43,7 +59,7 @@ img{
  display: flex;
  justify-content: center;
  align-items: center;
- gap: 10px;
+ gap: 5px;
 }
 
 #text{  
