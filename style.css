@@ -5,6 +5,25 @@
  box-sizing: border-box;
 
 }
+ul{
+ list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+}
+
+input{
+ border: 1px solid #E5E7EB;
+ border-radius: 5px;
+ width: 200px;
+ height: 1.2rem;
+}
+
+label{
+ font-family: Helvetica, sans-serif;
+ font-size: 10px;
+}
 
 @font-face {
  font-family: myFirstFont;
@@ -27,6 +46,9 @@
 .right{
  width: 70vw;
  background-color: #fafafa;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
 
 .header-right{
@@ -36,12 +58,15 @@
  display: flex;
  flex-wrap: wrap;
  width: 590px;
+ margin-top: 150px;
+ margin-left: 25px;
 }
 
 .header-right-below{ /* use margin to space all the right elements out */
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
+  margin-left: 25px;
 }
 
 img{
@@ -72,6 +97,58 @@ img{
 #img2{
  height: 90px;
  width:auto;
+}
+
+.list{
+ background-color: white;
+ box-shadow: 0px 10px 4px #888888;
+}
+
+label,input{
+ display: flex;
+ flex-direction: column;
+}
+
+
+.inputs{
+ display: flex;
+ flex-wrap: wrap;
+ width: 500px;
+ gap: 20px 40px;
+ margin-left: 25px;
+ margin-bottom: 25px;
+}
+
+input[type="password"].error{
+ background-color: red;
+
+}
+
+#btn{
+ background-color: #596D48;
+ color: white;
+ font-family: Helvetica;
+ border-radius: 4px;
+ font-size: 1rem;
+ width: 12em;
+ height: 2.5em;
+ font-weight: bold;
+ margin-left: 25px;
+ margin-top: 10px;
+}
+
+#list-header{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+#last-header{
+ font-family: Helvetica, sans-serif;
+ margin-left: 25px;
 }
 
 
