@@ -5,6 +5,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="style.css">
  <title>Sign Up</title>
+ <script src="script.js"></script>
+
 </head>
 <body>
  <div class="container">
@@ -52,12 +54,14 @@
 
       <li>
        <label for="pass">PASSWORD</label>
-       <input id="pass" type="password" name="pass">
+       <input id="pass" type="password" name="pass" onkeyup='check();'>
       </li>
 
       <li>
        <label for="conPass">CONFIRM PASSWORD</label>
-       <input id="conPass" type="password" name="pass">
+       <input id="conPass" type="password" name="pass" onkeyup='check();'>
+       <span id='message'></span>
+
       </li>
      </ul>
      
